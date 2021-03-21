@@ -1,10 +1,10 @@
 # clear-console
 Clear Console for Java
 
-コンソールをクリアするためのユーティリティです。\\
+コンソールをクリアするためのユーティリティです。  
 c だと、こう書くんでしょうか。
 
-``` C:clear.c
+```C:clear.c
 #include <stdio.h>
 
 int main()
@@ -13,6 +13,9 @@ int main()
   return 0;
 }
 ```
+
+Linux と Windows で動作します。  
+Macは持ってないんで...(T_T)
 
 ## compile
 $ ant
@@ -23,4 +26,4 @@ $ ant clean
 ## run
 $ java -cp ./classes Main
 
-<!-- 修正時刻: Sun Mar 21 13:26:32 2021 -->
+<!-- 修正時刻: Sun Mar 21 13:31:18 2021 -->
